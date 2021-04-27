@@ -21,7 +21,7 @@ Board labeled with pinout:
 
 Create the board image using [PcbDraw](https://github.com/yaqwsx/PcbDraw) and [PcbDraw-Lib](https://github.com/yaqwsx/PcbDraw-Lib/). Requires that KiCAD is installed:
 ```
-pcbdraw UPduino_v3.0.kicad_pcb board.svg
+pcbdraw UPduino_v3.0.kicad_pcb board.png
 ```
 
 The pins in the pinout diagram can be modified by changing `create_board.py`. The colors / theme of the diagram can be modified by changing `board_diagram.css`.

@@ -38,7 +38,7 @@ from pinout import diagram
 
 pinout_diagram = diagram.Diagram()
 
-pinout_diagram.add_image(0, 0, 260, 713, 'board.svg', embed=True)
+pinout_diagram.add_image(0, 0, 260, 713, 'board.png', embed=True)
 pinout_diagram.add_stylesheet('board_diagram.css', embed=True)
 
 diagram.Label.default_width = 110
