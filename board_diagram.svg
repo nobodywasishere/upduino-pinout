@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg  
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="932" 
+    height="792.5" 
+    viewBox="-282 0 932 792.5"
+    class="pinout-diagram"
+>
+
+
+    <g 
+
+    transform="translate(0 0)">
+
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -33009,4 +33024,1718 @@
       </g>
     </g>
   </g>
+</svg>
+
+</g><style  type="text/css">
+    
+/* Diagram styles */
+.pinout-diagram{
+    font-family:Verdana, Geneva, sans-serif;
+}
+
+/* Label styles */
+. .label_box{ fill: rgb(0, 0, 0) }
+.leaderline_ { stroke:   rgb(0, 0, 0) }
+
+.serial .label_box{ fill: darkorange }
+.leaderline_serial { stroke: darkorange }
+
+.gpio .label_box{ fill: rgb(200, 200, 200) }
+.gpio text { fill: #000000 !important }
+.leaderline_gpio { stroke: rgb(200, 200, 200) }
+
+.pwr .label_box{ fill: rgb(200, 0, 0) }
+.leaderline_pwr { stroke: rgb(200, 0, 0) }
+
+.spi .label_box{ fill: rgb(34, 139, 34) }
+.leaderline_spi { stroke: rgb(34, 139, 34) }
+
+.led .label_box{ fill: rgb(32, 6, 97) }
+.leaderline_led { stroke:   rgb(32, 6, 97) }
+
+.gnd .label_box{ fill: rgb(20, 20, 20) }
+.leaderline_gnd { stroke: rgb(20, 20, 20) }
+
+.osc .label_box{ fill: rgb(196, 103, 91) }
+.leaderline_osc { stroke:   rgb(196, 103, 91) }
+
+.glb .label_box{ fill: rgb(230, 60, 220) }
+.leaderline_glb { stroke:   rgb(230, 60, 220) }
+
+.label text{
+    fill: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, san-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Legend */
+.legend{
+    font-size: 15px;
+}
+
+.legend_box{
+    fill: rgb(247, 247, 247);
+    stroke: rgb(204, 204, 204);
+}
+
+</style><g 
+        class="legend legend-labels" 
+
+    transform="translate(450 550)">
+
+    
+    <rect class="legend_box" x="0" y="0" width="200" height="228" />
+    <g  transform="translate(46 30.0)" class=" legend-item">
+        <g 
+        class="pin" 
+
+    transform="translate(0 0)">
+
+    <path class="leaderline_swatch" d="M 0 0 V 0 H -1" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(1 0)"
+    >
+        
+    <g class="label swatch pwr" transform="translate(0 -10.0)">
+        <line class="leaderline" x1="0" y1="10.0" x2="5" y2="10.0" stroke="black" />
+        <rect class="label_box" x="5" y="0" width="19" height="20" rx="3" />
+        <text
+            x="-15.0" y="10.0" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            
+        </text>
+    </g>
+    </g>
+</g>
+        <text 
+            dominant-baseline="central" 
+            text-anchor="left"
+            x="5"
+        >Power</text>
+    </g>
+    <g  transform="translate(46 54.0)" class=" legend-item">
+        <g 
+        class="pin" 
+
+    transform="translate(0 0)">
+
+    <path class="leaderline_swatch" d="M 0 0 V 0 H -1" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(1 0)"
+    >
+        
+    <g class="label swatch gnd" transform="translate(0 -10.0)">
+        <line class="leaderline" x1="0" y1="10.0" x2="5" y2="10.0" stroke="black" />
+        <rect class="label_box" x="5" y="0" width="19" height="20" rx="3" />
+        <text
+            x="-15.0" y="10.0" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            
+        </text>
+    </g>
+    </g>
+</g>
+        <text 
+            dominant-baseline="central" 
+            text-anchor="left"
+            x="5"
+        >GND</text>
+    </g>
+    <g  transform="translate(46 78.0)" class=" legend-item">
+        <g 
+        class="pin" 
+
+    transform="translate(0 0)">
+
+    <path class="leaderline_swatch" d="M 0 0 V 0 H -1" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(1 0)"
+    >
+        
+    <g class="label swatch led" transform="translate(0 -10.0)">
+        <line class="leaderline" x1="0" y1="10.0" x2="5" y2="10.0" stroke="black" />
+        <rect class="label_box" x="5" y="0" width="19" height="20" rx="3" />
+        <text
+            x="-15.0" y="10.0" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            
+        </text>
+    </g>
+    </g>
+</g>
+        <text 
+            dominant-baseline="central" 
+            text-anchor="left"
+            x="5"
+        >LED</text>
+    </g>
+    <g  transform="translate(46 102.0)" class=" legend-item">
+        <g 
+        class="pin" 
+
+    transform="translate(0 0)">
+
+    <path class="leaderline_swatch" d="M 0 0 V 0 H -1" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(1 0)"
+    >
+        
+    <g class="label swatch gpio" transform="translate(0 -10.0)">
+        <line class="leaderline" x1="0" y1="10.0" x2="5" y2="10.0" stroke="black" />
+        <rect class="label_box" x="5" y="0" width="19" height="20" rx="3" />
+        <text
+            x="-15.0" y="10.0" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            
+        </text>
+    </g>
+    </g>
+</g>
+        <text 
+            dominant-baseline="central" 
+            text-anchor="left"
+            x="5"
+        >GPIO</text>
+    </g>
+    <g  transform="translate(46 126.0)" class=" legend-item">
+        <g 
+        class="pin" 
+
+    transform="translate(0 0)">
+
+    <path class="leaderline_swatch" d="M 0 0 V 0 H -1" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(1 0)"
+    >
+        
+    <g class="label swatch spi" transform="translate(0 -10.0)">
+        <line class="leaderline" x1="0" y1="10.0" x2="5" y2="10.0" stroke="black" />
+        <rect class="label_box" x="5" y="0" width="19" height="20" rx="3" />
+        <text
+            x="-15.0" y="10.0" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            
+        </text>
+    </g>
+    </g>
+</g>
+        <text 
+            dominant-baseline="central" 
+            text-anchor="left"
+            x="5"
+        >SPI</text>
+    </g>
+    <g  transform="translate(46 150.0)" class=" legend-item">
+        <g 
+        class="pin" 
+
+    transform="translate(0 0)">
+
+    <path class="leaderline_swatch" d="M 0 0 V 0 H -1" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(1 0)"
+    >
+        
+    <g class="label swatch serial" transform="translate(0 -10.0)">
+        <line class="leaderline" x1="0" y1="10.0" x2="5" y2="10.0" stroke="black" />
+        <rect class="label_box" x="5" y="0" width="19" height="20" rx="3" />
+        <text
+            x="-15.0" y="10.0" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            
+        </text>
+    </g>
+    </g>
+</g>
+        <text 
+            dominant-baseline="central" 
+            text-anchor="left"
+            x="5"
+        >Serial</text>
+    </g>
+    <g  transform="translate(46 174.0)" class=" legend-item">
+        <g 
+        class="pin" 
+
+    transform="translate(0 0)">
+
+    <path class="leaderline_swatch" d="M 0 0 V 0 H -1" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(1 0)"
+    >
+        
+    <g class="label swatch glb" transform="translate(0 -10.0)">
+        <line class="leaderline" x1="0" y1="10.0" x2="5" y2="10.0" stroke="black" />
+        <rect class="label_box" x="5" y="0" width="19" height="20" rx="3" />
+        <text
+            x="-15.0" y="10.0" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            
+        </text>
+    </g>
+    </g>
+</g>
+        <text 
+            dominant-baseline="central" 
+            text-anchor="left"
+            x="5"
+        >Global input</text>
+    </g>
+    <g  transform="translate(46 198.0)" class=" legend-item">
+        <g 
+        class="pin" 
+
+    transform="translate(0 0)">
+
+    <path class="leaderline_swatch" d="M 0 0 V 0 H -1" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(1 0)"
+    >
+        
+    <g class="label swatch osc" transform="translate(0 -10.0)">
+        <line class="leaderline" x1="0" y1="10.0" x2="5" y2="10.0" stroke="black" />
+        <rect class="label_box" x="5" y="0" width="19" height="20" rx="3" />
+        <text
+            x="-15.0" y="10.0" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            
+        </text>
+    </g>
+    </g>
+</g>
+        <text 
+            dominant-baseline="central" 
+            text-anchor="left"
+            x="5"
+        >Oscillator</text>
+    </g>
+
+</g><g 
+        class="pin" 
+
+    transform="translate(23 15)">
+
+    <path class="leaderline_gnd" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gnd" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            GND
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 45)">
+
+    <path class="leaderline_pwr" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label pwr" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            VIO
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 75)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            RST
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 105)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            DONE
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 135)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            41
+        </text>
+    </g>
+    <g class="label led" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            RED
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 165)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            39
+        </text>
+    </g>
+    <g class="label led" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            GRE
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 195)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            40
+        </text>
+    </g>
+    <g class="label led" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            BLU
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 225)">
+
+    <path class="leaderline_pwr" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label pwr" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            5v
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 255)">
+
+    <path class="leaderline_pwr" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label pwr" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            3.3v
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 285)">
+
+    <path class="leaderline_gnd" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gnd" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            GND
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 315)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            23
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 345)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            25
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 375)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            26
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 405)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            27
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 435)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            32
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 465)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            35
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 495)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            31
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 525)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            37
+        </text>
+    </g>
+    <g class="label glb" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            G1
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 555)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            34
+        </text>
+    </g>
+    <g class="label glb" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            G0
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 585)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            43
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 615)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            36
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 645)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            42
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 675)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            38
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(23 705)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H -73" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="scale(-1, 1) translate(73 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="-61.0" y="12.5" 
+            transform="scale(-1, 1)" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            28
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 15)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            16
+        </text>
+    </g>
+    <g class="label spi" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            SSN
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 45)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            15
+        </text>
+    </g>
+    <g class="label spi" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            SCK
+        </text>
+    </g>
+    <g class="label serial" transform="translate(232 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            USB RX
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 75)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            17
+        </text>
+    </g>
+    <g class="label spi" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            MOSI
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 105)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            14
+        </text>
+    </g>
+    <g class="label spi" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            MISO
+        </text>
+    </g>
+    <g class="label serial" transform="translate(232 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            USB TX
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 135)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            20
+        </text>
+    </g>
+    <g class="label glb" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            G3
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 165)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            10
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 195)">
+
+    <path class="leaderline_gnd" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gnd" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            GND
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 225)">
+
+    <path class="leaderline_osc" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label osc" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            12MHz
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 255)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            12
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 285)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            21
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 315)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            13
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 345)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            19
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 375)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            18
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 405)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            11
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 435)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            9
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 465)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            6
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 495)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            44
+        </text>
+    </g>
+    <g class="label glb" transform="translate(116 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            G6
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 525)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            4
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 555)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            3
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 585)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            48
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 615)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            45
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 645)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            47
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 675)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            46
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(233 705)">
+
+    <path class="leaderline_gpio" d="M 0 0 V 0 H 67" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(67 0)"
+    >
+        
+    <g class="label gpio" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            2
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(166 695)">
+
+    <path class="leaderline_gnd" d="M 0 0 V 85 H 134" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(134 85)"
+    >
+        
+    <g class="label gnd" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            GND
+        </text>
+    </g>
+    </g>
+</g><g 
+        class="pin" 
+
+    transform="translate(196 695)">
+
+    <path class="leaderline_pwr" d="M 0 0 V 55 H 104" fill="none" stroke="#f0f"/>
+    <g 
+        class="pin_labels" 
+        transform="translate(104 55)"
+    >
+        
+    <g class="label pwr" transform="translate(0 -12.5)">
+        <line class="leaderline" x1="0" y1="12.5" x2="6" y2="12.5" stroke="black" />
+        <rect class="label_box" x="6" y="0" width="109" height="25" rx="3" />
+        <text
+            x="61.0" y="12.5" 
+
+            dominant-baseline="middle" 
+            text-anchor="middle"
+        >
+            5v
+        </text>
+    </g>
+    </g>
+</g>
+    
 </svg>
