@@ -10,6 +10,7 @@
 
 .serial .label_box{ fill: darkorange }
 .serial .leaderline { stroke: darkorange }
+.leaderline_serial { stroke: darkorange }
 
 .gpio .label_box{ fill: rgb(200, 200, 200) }
 .gpio text { fill: #000000 !important }
