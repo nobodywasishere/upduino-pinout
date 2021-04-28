@@ -38,7 +38,7 @@ from pinout import diagram
 
 pinout_diagram = diagram.Diagram()
 
-pinout_diagram.add_image(0, 0, 260, 713, 'board.png', embed=True)
+pinout_diagram.add_image(0, -2, 260, 718, 'board_260x718.svg', embed=True)
 pinout_diagram.add_stylesheet('board_diagram.css', embed=True)
 
 diagram.Label.default_width = 110
@@ -138,4 +138,4 @@ pin_headers = [
 for header in pin_headers:
     pinout_diagram.add_pin_header(header)
 
-pinout_diagram.export('board_diagram.svg', overwrite=True)
+pinout_diagram.export('board_diagram_test.svg', overwrite=True)
