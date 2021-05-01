@@ -50,15 +50,17 @@ label_categories = [
     # (name, tag(s)),
     ('Power', 'pwr'),
     ('GND', 'gnd'),
+    # ('gpio', 'gpio'),
+    ('DPIO', 'dpio'),
     ('LED', 'led'),
-    ('GPIO', 'gpio'),
+    ('UART', 'serial'),
     ('SPI', 'spi'),
-    ('Serial', 'serial'),
-    ('Global input', 'glb'),
+    ('I3C', 'i3c'),
+    ('Global input', 'gbin'),
     ('Oscillator', 'osc'),
 ]
 
-pinout_diagram.add_legend(450, 550, 200, 'legend legend-labels', label_categories)
+pinout_diagram.add_legend(570, 190, 200, 'legend legend-labels', label_categories)
 
 pin_headers = [
     {
@@ -71,25 +73,25 @@ pin_headers = [
             [('VIO', 'pwr')],
             [('RST', 'gpio')],
             [('DONE', 'gpio')],
-            [('41','gpio'),('RED', 'led')],
-            [('39','gpio'),('GRE', 'led')],
-            [('40','gpio'),('BLU', 'led')],
+            [('41','gpio'),('RGB2 RED', 'led')],
+            [('39','gpio'),('RGB0 GRE', 'led')],
+            [('40','gpio'),('RGB1 BLU', 'led')],
             [('5v', 'pwr')],
             [('3.3v', 'pwr')],
             [('GND', 'gnd')],
-            [('23', 'gpio')],
-            [('25', 'gpio')],
-            [('26', 'gpio')],
-            [('27', 'gpio')],
-            [('32', 'gpio')],
-            [('35', 'gpio')], # ,('OUTPUT','')
-            [('31', 'gpio')],
-            [('37', 'gpio'),('G1','glb')],
-            [('34', 'gpio'),('G0','glb')],
-            [('43', 'gpio')],
-            [('36', 'gpio')],
-            [('42', 'gpio')],
-            [('38', 'gpio')],
+            [('23', 'gpio'),('I3C', 'i3c')],
+            [('25', 'gpio'),('I3C', 'i3c')],
+            [('26', 'gpio'),('(T 27)', 'dpio')],
+            [('27', 'gpio'),('(C 26)', 'dpio')],
+            [('32', 'gpio'),('(T 31)', 'dpio')],
+            [('35', 'gpio'),('G0','gbin')],
+            [('31', 'gpio'),('(C 32)', 'dpio')],
+            [('37', 'gpio'),('(T 34)', 'dpio'),('G1','gbin')],
+            [('34', 'gpio'),('(C 37)', 'dpio')],
+            [('43', 'gpio'),('(T 36)', 'dpio')],
+            [('36', 'gpio'),('(C 43)', 'dpio')],
+            [('42', 'gpio'),('(T 38)', 'dpio')],
+            [('38', 'gpio'),('(C 42)', 'dpio')],
             [('28', 'gpio')],
         ]
     },{
@@ -102,24 +104,24 @@ pin_headers = [
             [('15','gpio'),('SCK', 'spi'),('USB RX','serial')],
             [('17','gpio'),('MOSI', 'spi')],
             [('14','gpio'),('MISO', 'spi'),('USB TX','serial')],
-            [('20', 'gpio'),('G3','glb')],
-            [('10', 'gpio')], # ,('INPUT','')
-            [('GND', 'gnd')],
-            [('12MHz', 'osc')],
-            [('12', 'gpio')],
-            [('21', 'gpio')],
-            [('13', 'gpio')],
+            [('20','gpio'),('(C 13)', 'dpio'),('G3','gbin')],
+            [('10','gpio')],
+            [('GND','gnd')],
+            [('12MHz','osc')],
+            [('12', 'gpio'),('(T 21)', 'dpio')],
+            [('21', 'gpio'),('(C 12)', 'dpio')],
+            [('13', 'gpio'),('(T 20)', 'dpio')],
             [('19', 'gpio')],
             [('18', 'gpio')],
             [('11', 'gpio')],
             [('9', 'gpio')],
             [('6', 'gpio')],
-            [('44', 'gpio'),('G6','glb')],
-            [('4', 'gpio')],
-            [('3', 'gpio')],
-            [('48', 'gpio')],
-            [('45', 'gpio')],
-            [('47', 'gpio')],
+            [('44', 'gpio'),('(C 47)', 'dpio'),('G6','gbin')],
+            [(' 4', 'gpio'),('(T  3)', 'dpio')],
+            [(' 3', 'gpio'),('(C  4)', 'dpio')],
+            [('48', 'gpio'),('(T 45)', 'dpio')],
+            [('45', 'gpio'),('(C 58)', 'dpio')],
+            [('47', 'gpio'),('(T 44)', 'dpio')],
             [('46', 'gpio')],
             [('2', 'gpio')],
         ]
@@ -138,4 +140,4 @@ pin_headers = [
 for header in pin_headers:
     pinout_diagram.add_pin_header(header)
 
-pinout_diagram.export('board_diagram_test.svg', overwrite=True)
+pinout_diagram.export('board_diagram.svg', overwrite=True)

@@ -12,10 +12,20 @@
 .serial .leaderline { stroke: darkorange }
 .leaderline_serial { stroke: darkorange }
 
-.gpio .label_box{ fill: rgb(200, 200, 200) }
+.dpio .label_box{ fill: rgb(200, 200, 200) }
+.dpio text { fill: #000000 !important }
+.dpio .leaderline { stroke: rgb(200, 200, 200) }
+.leaderline_dpio { stroke: rgb(200, 200, 200) }
+
+.gpio .label_box{ fill: rgb(240, 240, 240) }
 .gpio text { fill: #000000 !important }
-.gpio .leaderline { stroke: rgb(200, 200, 200) }
-.leaderline_gpio { stroke: rgb(200, 200, 200) }
+.gpio .leaderline { stroke: rgb(240, 240, 240) }
+.leaderline_gpio { stroke: rgb(240, 240, 240) }
+
+.i3c .label_box{ fill: RGB(108, 245, 124) }
+.i3c text { fill: #000000 !important }
+.i3c .leaderline { stroke: RGB(108, 245, 124) }
+.leaderline_i3c { stroke: RGB(108, 245, 124) }
 
 .pwr .label_box{ fill: rgb(200, 0, 0) }
 .pwr .leaderline { stroke: rgb(200, 0, 0) }
@@ -37,9 +47,9 @@
 .osc .leaderline { stroke:   rgb(196, 103, 91) }
 .leaderline_osc { stroke:   rgb(196, 103, 91) }
 
-.glb .label_box{ fill: rgb(230, 60, 220) }
-.glb .leaderline { stroke:   rgb(230, 60, 220) }
-.leaderline_glb { stroke:   rgb(230, 60, 220) }
+.gbin .label_box{ fill: rgb(230, 60, 220) }
+.gbin .leaderline { stroke:   rgb(230, 60, 220) }
+.leaderline_gbin { stroke:   rgb(230, 60, 220) }
 
 .label text{
     fill: rgb(255, 255, 255);
